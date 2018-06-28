@@ -8,7 +8,8 @@ $arComponentDescription = array(
 	"SORT" => 20,
 	"CACHE_PATH" => "Y",
 	"PATH" => array(
-		"ID" => "content",
+		"ID" => "exam2",
+        "NAME" => GetMessage("EXAM2"),
 	),
 );
 

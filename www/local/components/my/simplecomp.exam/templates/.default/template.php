@@ -1,5 +1,9 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 ?>
+<?$this->SetViewTarget('maxmin')?>
+<div style="color:red; margin: 34px 15px 35px 15px"><?=$arResult['MAXMIN']?></div>
+<?$this->EndViewTarget();?>
+
 <b><?=GetMessage("CATALOG")?>:</b>
 <ul>
 <?foreach($arResult['ITEMS'] as $arItem):?>

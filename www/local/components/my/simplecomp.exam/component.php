@@ -116,7 +116,7 @@ while ($res = $r->GetNext())
 }
 $maxminText = "Максимальная цена: ".$maxPrice;
 $maxminText .= ", минимальная цена: ".$minPrice;
-$maxminText = '<div style="color:red; margin: 34px 15px 35px 15px">'.$maxminText.'</div>';
+
 
 
 $elements = array_unique($elements);
@@ -132,7 +132,6 @@ $this->IncludeComponentTemplate();
 
 
 $APPLICATION->SetTitle("В каталоге товаров представлено товаров: ".$arResult['ELEM_COUNT']);
-$APPLICATION->AddViewContent('maxmin', $arResult['MAXMIN']);
 
 ?>
 

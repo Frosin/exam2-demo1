@@ -13,7 +13,7 @@
 $this->setFrameMode(true);
 ?>
 <?
-if ($arParams["SEF_MEDE"] == "Y")
+if ($arParams["SEF_MODE"] == "Y")
 {
 	$url = $arParams['SEF_URL_TEMPLATES']["exampage"];
 	$url = str_replace("#PARAM1#","123",$url);
